@@ -8,4 +8,3 @@ colItems = objSWbemServices.ExecQuery("SELECT * FROM Win32_LogicalDisk")
 for objItem in colItems:
     print(objItem.Size)
 
-#test
